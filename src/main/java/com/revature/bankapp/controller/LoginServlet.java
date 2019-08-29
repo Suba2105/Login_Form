@@ -36,7 +36,7 @@ public class LoginServlet extends HttpServlet {
         	response.sendRedirect("home.jsp");
         }
         else {
-        	response.sendRedirect("index.jsp?message=Invalid Login Credentials");
+        	response.sendRedirect("index.jsp?message=Invalid  User Login Credentials");
         }
 	}
 
